@@ -1,0 +1,53 @@
+{
+  "name": "mars2d-vue-cli",
+  "version": "2.0.0",
+  "description": "mars2d三维地球-Vue脚手架",
+  "main": "index.js",
+  "keywords": [
+    "marsgis",
+    "mars2d",
+    "leaflet",
+    "vue",
+    "gis"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.4.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "turf": "^3.0.14",
+    "mapv": "^2.0.38",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.2.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-plugin-jsx-v-model": "^2.0.3",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "echarts": "^4.6.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marsgis/mars2d-vue-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marsgis/mars2d-vue-cli/issues",
+    "email": "wh@marsgis.cn"
+  },
+  "author": {
+    "name": "火星科技",
+    "url": "http://www.marsgis.cn"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/marsgis/mars2d-vue-cli"
+}
