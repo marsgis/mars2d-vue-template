@@ -47,5 +47,5 @@ import L from   "../map/leaflet-mars/leaflet";
 1. 当前是import方式引入lib的，而 mars2d-simple-vue是head静态资源引入。 
 
 ## 版权说明
-  本项目主要是为了展示[Mars2D](http://leaflet.marsgis.cn)的项目应用，仅限大家学习之用，如需用于商业项目，请联系购买[火星科技](http://leaflet.marsgis.cn)SDK授权。
- 并且Mars2D-SDK类库并未开源（即`src\map\leaflet-mars\`）,内部有作者公司logo及时效限制。
+  本项目主要是为了展示Mars2D的项目应用，Mars2D-SDK类库目前并未开源（即`libs/leaflet-mars/`）,但支持大家免费学习及使用。
+  如需要平台功能示例源码及相关文档手册，或用于商业项目，请联系购买[火星科技](http://leaflet.marsgis.cn)SDK授权。
