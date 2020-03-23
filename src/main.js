@@ -5,6 +5,8 @@ import store from './store'
 
 //公共css
 import './assets/css/base.css';
+import 'leaflet/dist/leaflet.css'
+import "./map/mars2d/mars2d.css";
 
 //引入element
 import ElementUI from 'element-ui';

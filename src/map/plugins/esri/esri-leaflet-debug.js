@@ -2,7 +2,7 @@
  * Copyright (c) 2018 Environmental Systems Research Institute, Inc.
  * Apache-2.0 */
 
-import L from "../leaflet-mars/leaflet";
+import L from "../../mars2d/mars2d";
 
 (function (global, factory) {
     factory(L.esri = {}, L);

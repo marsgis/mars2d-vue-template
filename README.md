@@ -4,7 +4,7 @@
 
 当前脚手架内Mars2D等所有js库都是**采用import方式引入的**。
 ```javascript
-import L from   "../map/leaflet-mars/leaflet";
+import L from   "../map/mars2d/mars2d";
 ```
 
  其他技术栈，请参考 [Mars2D开源导航](https://github.com/marsgis/MarsGIS-for-Leaflet)
@@ -40,12 +40,12 @@ import L from   "../map/leaflet-mars/leaflet";
  
  
 ### 更新项目
- 此脚手架中类库不保证是最新版本，请您自行拷贝交付资料中任意包下的  `lib\leaflet-mars\` 覆盖至: `src\map\leaflet-mars\`目录下
+ 此脚手架中类库不保证是最新版本，请您自行拷贝交付资料中任意包下的  `lib\leafletjs\mars2d\` 覆盖至: `src\map\mars2d\`目录下
  
 
 ### 与[mars2d-simple-vue](https://github.com/marsgis/mars2d-simple-vue)仓库的区别
 1. 当前是import方式引入lib的，而 mars2d-simple-vue是head静态资源引入。 
 
 ## 版权说明
-  本项目主要是为了展示Mars2D的项目应用，Mars2D-SDK类库目前并未开源（即`libs/leaflet-mars/`）,但支持大家免费学习及使用。
+  本项目主要是为了展示Mars2D的项目应用，Mars2D-SDK类库目前并未开源（即`libs/leafletjs/mars2d/`）,但支持大家免费学习及使用。
   如需要平台功能示例源码及相关文档手册，或用于商业项目，请联系购买[火星科技](http://leaflet.marsgis.cn)SDK授权。

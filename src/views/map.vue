@@ -2,10 +2,9 @@
   <div id="map" class="map"></div>
 </template>
 
-<script>
-import "../map/leaflet-mars/leaflet.css";
-import L from   "../map/leaflet-mars/leaflet";
-import  "../map/esri/esri-leaflet-debug";
+<script> 
+import L from   "../map/mars2d/mars2d";
+import  "../map/plugins/esri/esri-leaflet-debug";
 
 import { getMapConfig } from "../api/map";
 
