@@ -7,7 +7,7 @@
 import L from   "../map/mars2d/mars2d";
 ```
 
- 其他技术栈，请参考 [Mars2D开源导航](https://github.com/marsgis/MarsGIS-for-Leaflet)
+ 其他技术栈，请参考 [Mars2D开源导航](https://github.com/marsgis/mars2d)
  
 
 ## 运行效果 
@@ -43,8 +43,8 @@ import L from   "../map/mars2d/mars2d";
  此脚手架中类库不保证是最新版本，请您自行拷贝交付资料中任意包下的  `lib\leafletjs\mars2d\` 覆盖至: `src\map\mars2d\`目录下
  
 
-### 与[mars2d-simple-vue](https://github.com/marsgis/mars2d-simple-vue)仓库的区别
-1. 当前是import方式引入lib的，而 mars2d-simple-vue是head静态资源引入。 
+### 与[mars2d-vue-project](https://github.com/marsgis/mars2d-vue-project)仓库的区别
+1. 当前是import方式引入lib的，而 mars2d-vue-project是head静态资源引入。 
 
 ## 版权说明
   本项目主要是为了展示Mars2D的项目应用，Mars2D-SDK类库目前并未开源（即`libs/leafletjs/mars2d/`）,但支持大家免费学习及使用。

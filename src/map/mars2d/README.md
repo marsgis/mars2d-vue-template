@@ -10,7 +10,7 @@
 ## 相关网站
 [产品介绍手册](http://leaflet.marsgis.cn/docs/file/cpjs.pdf)  
 [Mars2D官网](http://leaflet.marsgis.cn)  
-[GitHub开源](https://github.com/marsgis/MarsGIS-for-Leaflet)
+[GitHub开源](https://github.com/marsgis/mars2d)
 
 
 ## 版本信息
