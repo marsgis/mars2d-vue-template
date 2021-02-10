@@ -1,5 +1,5 @@
 # Mars2D三维地球 - Vue脚手架
- Vue技术栈下的一个最简[Mars2D](http://leaflet.marsgis.cn)应用的三维地球项目模版,Mars2D等库都是采用import方式引入。
+ Vue技术栈下的一个最简[Mars2D](http://mars2d.cn)应用的三维地球项目模版,Mars2D等库都是采用import方式引入。
  这是一个基于 [VueCli](https://cli.vuejs.org/config/)并整合了Leaflet、MarsGIS的基础项目。
 
 当前脚手架内Mars2D等所有js库都是**采用import方式引入的**。
@@ -11,13 +11,13 @@ import L from   "../map/mars2d/mars2d";
  
 
 ## 运行效果 
-  [在线Demo1](http://leaflet.marsgis.cn/project/simple-es5/index.html) 、
- [在线Demo2](http://leaflet.marsgis.cn/project/simple-es5/index.html?config=config/gcj.json)  、
- [在线Demo3](http://leaflet.marsgis.cn/project/simple-es5/index.html?config=config/baidu.json) 
+  [在线Demo1](http://mars2d.cn/project/simple-es5/index.html) 、
+ [在线Demo2](http://mars2d.cn/project/simple-es5/index.html?config=config/gcj.json)  、
+ [在线Demo3](http://mars2d.cn/project/simple-es5/index.html?config=config/baidu.json) 
 
- ![image](http://leaflet.marsgis.cn/project/img/simple-es5.jpg)
+ ![image](http://mars2d.cn/project/img/simple-es5.jpg)
  
- [更多项目体验](http://leaflet.marsgis.cn/project.html)
+ [更多项目体验](http://mars2d.cn/project.html)
 
 
  
@@ -48,4 +48,4 @@ import L from   "../map/mars2d/mars2d";
 
 ## 版权说明
   本项目主要是为了展示Mars2D的项目应用，Mars2D-SDK类库目前并未开源（即`libs/leafletjs/mars2d/`）,但支持大家免费学习及使用。
-  如需要平台功能示例源码及相关文档手册，或用于商业项目，请联系购买[火星科技](http://leaflet.marsgis.cn)SDK授权。
+  如需要平台功能示例源码及相关文档手册，或用于商业项目，请联系购买[火星科技](http://mars2d.cn)SDK授权。

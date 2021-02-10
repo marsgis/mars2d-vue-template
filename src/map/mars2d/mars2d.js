@@ -2,7 +2,7 @@
  * Mars2D地图平台软件
  * 版本信息：v2.1.0, hash值: 0b6fdba14d4de8eacf4a
  * 编译日期：2020-12-14 17:52:43
- * 版权所有：Copyright by 火星科技 http://leaflet.marsgis.cn
+ * 版权所有：Copyright by 火星科技 http://mars2d.cn
  * 
  */
 
