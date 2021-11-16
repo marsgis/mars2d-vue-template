@@ -21,17 +21,7 @@ module.exports = {
           {
             test: /\.js$/,
             enforce: 'pre',
-            sideEffects: false,
-            use: [
-              {
-                loader: 'strip-pragma-loader',
-                options: {
-                  pragmas: {
-                    debug: false
-                  }
-                }
-              }
-            ]
+            sideEffects: false
           }
         ]
       },

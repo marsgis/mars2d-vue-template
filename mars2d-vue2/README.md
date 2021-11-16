@@ -1,8 +1,8 @@
 <p align="center">
 <img src="http://mars2d.cn/logo.png" width="300px" />
 </p>
-
-<p align="center">基于Vue2.x技术栈的 Mars2D🌎最简项目模板</p>
+ 
+<p align="center">基于Vue2.x + VueCli4.x技术栈的 Mars2D🌎最简项目模板</p>
 
 <p align="center">
 <a target="_black" href="https://github.com/marsgis/mars2d">
@@ -16,23 +16,45 @@
 </a>
 </p>
 
- [**English**](./README_EN.md) |[**中文**](./README.md) 
+
+  
+## 运行命令
  
+### 首次运行前安装依赖
+ `npm install` 或 `cnpm install`
+ 
+### http运行项目
+ `npm run serve`  运行后访问：`http://localhost:2001/` 
 
-  
-  
-| 目录  |mars2d包 |Leaflet包  |   说明  | 
-|  ----  |----  | ----| ----  |
-|[mars2d-vue2](./mars2d-vue2/README.md)	|npm |npm  | 【推荐】标准的vue2项目模板| 
-
-
-
+### 打包编译项目
+ 运行`npm run build`来构建项目。 
 
 ## 运行效果 
  [在线Demo](http://mars2d.cn/project/vue-template/)  
 
  ![image](http://mars2d.cn/project/vue-template/screenshot.jpg)
  
+
+  
+## 如何集成到自己已有的项目中
+1. ### 安装mars2d依赖包
+```bash
+npm install mars2d   //或  cnpm install mars2d   或  yarn add mars2d
+```
+
+2. ### 拷贝文件
+ > 场景配置文件：`public\config\config.json`
+
+ > 组件定义文件：`src\components\mars2d\Map.vue`
+
+
+4. ### 创建地球 
+ 参考 `src\views\Index.vue`文件引入Map组件和构造创建地球，主要关注下下面代码处
+```js
+<Map :url="configUrl" @onload="onMapload" />
+
+import Map from '../components/mars2d/Map.vue'
+```
 
 
 
