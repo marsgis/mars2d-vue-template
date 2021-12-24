@@ -30,9 +30,7 @@
  运行`npm run build`来构建项目。 
 
 ## 运行效果 
- [在线Demo](http://mars2d.cn/project/vue-template/)  
-
- ![image](http://mars2d.cn/project/vue-template/screenshot.jpg)
+ [在线体验]( http://marsgis.gitee.io/mars2d-es5-template)  
  
 
   
