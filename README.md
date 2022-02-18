@@ -23,12 +23,11 @@
   
 | 目录  |mars2d包 |Leaflet包  |   说明  | 
 |  ----  |----  | ----| ----  |
-|[mars2d-vue2](./mars2d-vue2/README.md)	|npm |npm  | 【推荐】标准的vue2项目模板| 
+|[mars2d-vue3-vite](./mars2d-vue3-vite/README.md)	|npm |npm  | 【推荐】 vue3项目模板,使用vue3+vite+ts|  
+|[mars2d-vue2](./mars2d-vue2/README.md)	|npm |npm  | vue2项目模板,使用vue+vue-cli+js| 
 
 
-
-
-## 运行效果 
+### 运行效果 
  [在线体验]( http://marsgis.gitee.io/mars2d-es5-template)  
  
 

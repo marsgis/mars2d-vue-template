@@ -1,17 +1,17 @@
 <template>
   <div id="centerDiv" class="mapcontainer">
-    <Map :url="configUrl" @onload="onMapload" />
+    <mars2d-map :url="configUrl" @onload="onMapload" />
   </div>
 </template>
 
 <script>
-import Map from '../components/mars2d/Map.vue'
+import Mars2dMap from '../components/mars-work/mars2d-map.vue'
 
 export default {
   name: 'Index',
 
   components: {
-    Map
+    Mars2dMap
   },
 
   data() {
@@ -24,6 +24,7 @@ export default {
   methods: {
     // 地图构造完成回调
     onMapload(map) {
+      // 以下为演示代码
       this.map = map
     }
 

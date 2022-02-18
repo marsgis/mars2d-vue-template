@@ -6,8 +6,10 @@
 import Vue from 'vue'
 
 // 使用免费开源版本
-import * as mars2d from 'mars2d'
 import 'mars2d/dist/mars2d.css'
+import * as mars2d from 'mars2d'
+
+// let mars2d = window.mars2d
 
 // 导入插件(其他插件类似，插件清单访问：http://mars2d.cn/dev/guide/start/architecture.html)
 // echarts插件
@@ -33,13 +35,11 @@ export default {
   },
 
   mounted() {
-    mars2d.axios
-      .get(this.url)
-      .then((response) => {
-        let options = response.data.map
+    mars2d.Util.fetchJson({ url: this.url })
+      .then((data) => {
         // 构建地图
         this.initMars2D({
-          ...options,
+          ...data.mars2d,
           ...this.options
         })
       })
@@ -48,9 +48,12 @@ export default {
       })
   },
 
-  beforeDestroy() {
-    this[`map${this.mapKey}`].destroy()
-    delete this[`map${this.mapKey}`]
+  beforeDestroy () {
+    const map = this[`map${this.mapKey}`]
+    if (map) {
+      map.destroy()
+      delete this[`map${this.mapKey}`]
+    }
   },
 
   methods: {
