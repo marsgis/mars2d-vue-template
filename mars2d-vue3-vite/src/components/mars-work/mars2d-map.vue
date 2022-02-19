@@ -5,7 +5,7 @@
 /**
  * 地图渲染组件
  * @copyright 火星科技 mars2d.cn
- * @author 火星吴彦祖 2021-12-30
+ * @author 火星吴彦祖 2022-02-19
  */
 import { computed, onBeforeUnmount, onMounted } from "vue";
 import * as mars2d from "mars2d"; 

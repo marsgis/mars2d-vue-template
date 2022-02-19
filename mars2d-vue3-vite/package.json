@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marsgis/mars2d-vue-template/.git"
+    "url": "https://github.com/marsgis/mars2d-vue-template.git"
   },
   "bugs": {
-    "url": "https://github.com/marsgis/mars2d-vue-template//issues",
+    "url": "https://github.com/marsgis/mars2d-vue-template/issues",
     "email": "wh@marsgis.cn"
   },
   "keywords": [
@@ -37,7 +37,9 @@
     "mars2d",
     "cesium",
     "vue",
-    "gis"
+    "vue3",
+    "gis",
+    "webgis"
   ],
   "author": "火星科技",
   "license": "Apache-2.0",
