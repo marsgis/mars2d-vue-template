@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "leaflet": "^1.7.1",
-    "mars2d": "^3.0.6",
+    "mars2d": "^3.0.12",
     "vue": "^3.2.25"
   },
   "devDependencies": {
