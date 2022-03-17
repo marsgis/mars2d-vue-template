@@ -10,13 +10,12 @@
   },
   "dependencies": {
     "core-js": "^3.12.0",
-    "mars2d": "^3.0.12",
+    "mars2d": "^3.0.14",
     "vue": "^2.6.14",
     "vue-router": "^3.5.3",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.17.7",
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.13",
