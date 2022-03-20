@@ -1,6 +1,6 @@
 {
   "name": "mars2d-vue-template",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Mars2D地图平台软件,Vue最简项目模版",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.12.0",
-    "mars2d": "^3.0.14",
+    "mars2d": "^3.1.0", 
     "vue": "^2.6.14",
     "vue-router": "^3.5.3",
     "vuex": "^3.6.2"
