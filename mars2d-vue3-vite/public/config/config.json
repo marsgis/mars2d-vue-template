@@ -1,15 +1,15 @@
 {
     "mars2d": {
       "zoom": 13,
-      "center": { "x": 117.240601, "y": 31.827107 },
-      "minZoom": 3,
+    "center": { "lng": 117.240601, "lat": 31.827107 },
+    "minZoom": 2,
       "maxZoom": 18,
       "centerAutoLevel": 15,
       "control": {
         "scale": true,
         "locationBar": {
           "crs": "CGCS2000_GK_Zone_3",
-          "template": "<div>经度:{lng}</div> <div>纬度:{lat}</div> <div>横{crsx}  纵{crsy}</div> <div>层级:{level}</div>"
+        "template": "<div>经度:{lng}</div> <div>纬度:{lat}</div> <div class='hide700'>横{crsx}  纵{crsy}</div> <div>层级:{level}</div>"
         },
         "layers": { "position": "topleft" },
         "zoom": { "position": "bottomright" },
