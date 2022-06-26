@@ -4,12 +4,14 @@
   "description": "Mars2D平台,Vue最简项目模版",
   "scripts": {
     "dev": "vite",
-    "serve": "npm run clean-cache && vite",
+    "serve": "npm run clean-cache && vite --host",
     "clean-cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
     "clean-lib": "rimraf node_modules",
     "preview": "vite preview",
     "build": "npm run lint && vite build",
-    "lint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix && vue-tsc --noEmit"
+    "serve:dist": "http-server ./dist",
+    "lint": "vue-tsc --noEmit --skipLibCheck && npm run eslint",
+    "eslint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix"
   },
   "dependencies": {
     "mars2d": "^3.1.0",
@@ -27,6 +29,7 @@
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-vue": "^8.3.0",
     "fs-extra": "^10.0.0",
+    "http-server": "^14.1.0",
     "less": "^4.1.2",
     "rollup-plugin-external-globals": "^0.6.1",
     "serve-static": "^1.14.2",

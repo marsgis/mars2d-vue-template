@@ -65,6 +65,7 @@ onBeforeUnmount(() => {
     map.destroy()
     map = null
   }
+  console.log("map销毁完成", map)
 })
 </script>
 
@@ -72,5 +73,9 @@ onBeforeUnmount(() => {
 .mars2d-container {
   height: 100%;
   overflow: hidden;
+}
+.leaflet-tile-container img {
+  width: 257px !important;
+  height: 257px !important;
 }
 </style>
