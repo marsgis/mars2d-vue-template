@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://muyao1987.gitee.io/cdn/mars2d.cn/logo.png" width="300px" />
+<img src="http://mars2d.cn/logo.png" width="300px" />
 </p>
 
 <p align="center">Mars3d development template based on Vue3.x + Vite </p>
