@@ -41,7 +41,7 @@ export default {
       .then((data) => {
         // 构建地图
         this.initMars2D({
-          ...data.mars2d,
+          ...data,
           ...this.options
         })
       })
