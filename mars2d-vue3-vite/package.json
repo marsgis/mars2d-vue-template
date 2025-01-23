@@ -1,6 +1,6 @@
 {
   "name": "mars2d-vue-template",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Mars2D平台,Vue最简项目模版",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,7 @@
     "eslint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix"
   },
   "dependencies": {
-    "mars2d": "~3.2.0",
+    "mars2d": "~3.3.0",
     "vue": "^3.2.31"
   },
   "devDependencies": {
